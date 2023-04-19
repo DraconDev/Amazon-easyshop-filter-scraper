@@ -1,0 +1,542 @@
+[
+    {
+        "price": 18.1,
+        "name": "Men's Long-Sleeved Quarter-Zip Fleece Sweatshirt",
+        "prime": false,
+        "rating": 4.3,
+        "ratingCount": 3,
+        "image": "https://m.media-amazon.com/images/I/710dCW6fbUL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 21.98,
+        "name": "Mens Gym Hoodie Workout Sweatshirt Muscle Sweater Lightweight Long Sleeve Athletic Hooded",
+        "prime": false,
+        "rating": 4,
+        "ratingCount": 577,
+        "image": "https://m.media-amazon.com/images/I/61qfylTbtDL._AC_UL400_.jpg",
+        "sponsored": true
+    },
+    {
+        "price": 22.66,
+        "name": "Mens Crewneck Sweatshirt Long Sleeve Plain Jumper Sweater Casual Top",
+        "prime": false,
+        "rating": 3.2,
+        "ratingCount": 19,
+        "image": "https://m.media-amazon.com/images/I/51mEfQiL2iL._AC_UL400_.jpg",
+        "sponsored": true
+    },
+    {
+        "price": 44.99,
+        "name": "Men's Pullover Knit Sweater LN-5060",
+        "prime": true,
+        "rating": 4.6,
+        "ratingCount": 2,
+        "image": "https://m.media-amazon.com/images/I/815jbv4NipL._AC_UL400_.jpg",
+        "sponsored": true
+    },
+    {
+        "price": 13.17,
+        "name": "Men's Set-in Classic Sweater",
+        "prime": false,
+        "rating": 4.4,
+        "ratingCount": 7,
+        "image": "https://m.media-amazon.com/images/I/81e1qFChJHL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 13.5,
+        "name": "Premium Sweatshirts Plain Workwear Casual Crewneck Jumper Sweater Sports Leisure Fleece",
+        "prime": false,
+        "rating": 4.2,
+        "ratingCount": 1,
+        "image": "https://m.media-amazon.com/images/I/51YyiBuyAQL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 20.9,
+        "name": "Men's Crew Neck Sweater (Available in Big & Tall)",
+        "prime": false,
+        "rating": 4.4,
+        "ratingCount": 19,
+        "image": "https://m.media-amazon.com/images/I/91nG7tYFJ4L._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 16.59,
+        "name": "Men's Set-In Premium Sweater",
+        "prime": false,
+        "rating": 4.5,
+        "ratingCount": 1,
+        "image": "https://m.media-amazon.com/images/I/8121vq43KNL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 12.29,
+        "name": "Men Raglan Lightweight Sweater",
+        "prime": false,
+        "rating": 4.1,
+        "ratingCount": 2,
+        "image": "https://m.media-amazon.com/images/I/71OcapNsgKL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 16.5,
+        "name": "Men's Jjebasic Knit Crew Neck Noos Jumper",
+        "prime": false,
+        "rating": 4.5,
+        "ratingCount": 11,
+        "image": "https://m.media-amazon.com/images/I/81YB-C-wngL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 12.3,
+        "name": "Men's Pullover Sweater",
+        "prime": false,
+        "rating": 4.3,
+        "ratingCount": 3,
+        "image": "https://m.media-amazon.com/images/I/81V56+zp6gL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 22.99,
+        "name": "Mens Jumper Premium Branded Crew Neck Cotton Sweater Pullover Sweatshirt Jumpers for Men UK Black Navy Charcoal S M L XL 2XL",
+        "prime": false,
+        "rating": 3.8,
+        "ratingCount": 9,
+        "image": "https://m.media-amazon.com/images/I/41q+pz1JWpL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 17.5,
+        "name": "Men's Fleece Crew Neck Sweatshirt (Available in Big & Tall)",
+        "prime": false,
+        "rating": 4.3,
+        "ratingCount": 25,
+        "image": "https://m.media-amazon.com/images/I/818jXdKfdYL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 18.99,
+        "name": "Men's Turtleneck Jumper Slim Fit Tops Turtleneck Long Sleeve Shirts",
+        "prime": false,
+        "rating": 4.1,
+        "ratingCount": 101,
+        "image": "https://m.media-amazon.com/images/I/61u1I+U4+ZL._AC_UL400_.jpg",
+        "sponsored": true
+    },
+    {
+        "price": 24.9,
+        "name": "Men's Knit Cardigans Jumpers Lightweight Classic Soft Wool V Neck Cardigan with Buttons, Long Sleeve Knitwear Pullover Sweaters for Men, Mens Gift",
+        "prime": false,
+        "rating": 4.4,
+        "ratingCount": 115,
+        "image": "https://m.media-amazon.com/images/I/81+MoueVCkL._AC_UL400_.jpg",
+        "sponsored": true
+    },
+    {
+        "price": 23.99,
+        "name": "Mens Plain V-Neck Jumper Slim Fit Knitted Casual Long Sleeve Pullover Sweater Soft Warm Top Work Office Smart S-XXL",
+        "prime": false,
+        "rating": 3.9,
+        "ratingCount": 10,
+        "image": "https://m.media-amazon.com/images/I/51Qr5v1utkL._AC_UL400_.jpg",
+        "sponsored": true
+    },
+    {
+        "price": 28.1,
+        "name": "Men's V-Neck Cable Sweater",
+        "prime": true,
+        "rating": 4.5,
+        "ratingCount": 132,
+        "image": "https://m.media-amazon.com/images/I/81W2JKLOOHL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 26,
+        "name": "Women's Onllesly Kings L/S Pullover KNT Noos Sweater",
+        "prime": true,
+        "rating": 4.3,
+        "ratingCount": 2,
+        "image": "https://m.media-amazon.com/images/I/61PsCNrn7hL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 13,
+        "name": "Women's Sweater",
+        "prime": false,
+        "rating": 4.3,
+        "ratingCount": 1,
+        "image": "https://m.media-amazon.com/images/I/716Q98fFdFL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 10.94,
+        "name": "Men's Raglan Sweatshirt",
+        "prime": false,
+        "rating": 4.1,
+        "ratingCount": 474,
+        "image": "https://m.media-amazon.com/images/I/61xyceXCLWL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 26.99,
+        "name": "Mens Jumpers Half Zip Neck Sweaters Slim Fit Long Sleeve Quarter Zip Pullover Polo Top with Ribbing Edge",
+        "prime": true,
+        "rating": 4.2,
+        "ratingCount": 143,
+        "image": "https://m.media-amazon.com/images/I/513QCZFVsdL._AC_UL400_.jpg",
+        "sponsored": true
+    },
+    {
+        "price": 23.99,
+        "name": "Womens Fleece Jackets Ladies Lightweight Warm Full Zip Coat Breathable Microfleece Ladies Sweater Casual Long Sleeve, Ideal for Travelling Outdoor Sport",
+        "prime": false,
+        "rating": 4.2,
+        "ratingCount": 84,
+        "image": "https://m.media-amazon.com/images/I/71oXwh2O5eL._AC_UL400_.jpg",
+        "sponsored": true
+    },
+    {
+        "price": 22.99,
+        "name": "Men's Sleeveless Jumpers Tank Top V Neck Sweater Vest with Ribbed Edge",
+        "prime": false,
+        "rating": 4.4,
+        "ratingCount": 56,
+        "image": "https://m.media-amazon.com/images/I/715YNBGyoBL._AC_UL400_.jpg",
+        "sponsored": true
+    },
+    {
+        "price": 23.99,
+        "name": "Mens Sweatshirts Micro Fleece Tops Half Zip Jumper Polo Neck Jumpers Fleece Jacket Sweater",
+        "prime": false,
+        "rating": 4.1,
+        "ratingCount": 71,
+        "image": "https://m.media-amazon.com/images/I/61oX3iJMhjL._AC_UL400_.jpg",
+        "sponsored": true
+    },
+    {
+        "price": 19.99,
+        "name": "Jumpers for Men Mens Jumpers Long Sleeve Crew Neck Jumpers for Men 100% Cotton Cable Knit Jumper Sweaters Pullover Black Navy Grey Sizes S to XXL",
+        "prime": false,
+        "rating": 4.1,
+        "ratingCount": 14,
+        "image": "https://m.media-amazon.com/images/I/714D+yA0H4L._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 35.99,
+        "name": "Mens 2023 Knit Crew Neck Cotton CK Golf Sweater",
+        "prime": false,
+        "rating": 4.5,
+        "ratingCount": 102,
+        "image": "https://m.media-amazon.com/images/I/61MFOcpgB1L._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 8.53,
+        "name": "Unisex Kids Raglan Classic Sweater",
+        "prime": false,
+        "rating": 4.4,
+        "ratingCount": 2,
+        "image": "https://m.media-amazon.com/images/I/81FWQt+710L._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 17.5,
+        "name": "Men's Fleece Crew Neck Sweatshirt (Available in Big & Tall)",
+        "prime": false,
+        "rating": 4.3,
+        "ratingCount": 25,
+        "image": "https://m.media-amazon.com/images/I/818jXdKfdYL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 34.95,
+        "name": "Mens 2023 Scale CK Insul-Lite 1/2 Zip Golf Sweater",
+        "prime": false,
+        "rating": 4.6,
+        "ratingCount": 152,
+        "image": "https://m.media-amazon.com/images/I/41q-LzKzl4L._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 18,
+        "name": "Men's X Cardigan Sweater (pack of 1)",
+        "prime": false,
+        "rating": 4.4,
+        "ratingCount": 16,
+        "image": "https://m.media-amazon.com/images/I/8198jXZGahL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 39.45,
+        "name": "Men's Premium Core R Sw Ls Sweater",
+        "prime": true,
+        "rating": 4.5,
+        "ratingCount": 670,
+        "image": "https://m.media-amazon.com/images/I/71ej2YPvwVL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 13.08,
+        "name": "Women Regular Basic V Neck Knitwear Sweater",
+        "prime": false,
+        "rating": 3,
+        "ratingCount": 2,
+        "image": "https://m.media-amazon.com/images/I/61kVd1LsA1L._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 35,
+        "name": "Men's 100 Glacier Sweater",
+        "prime": false,
+        "rating": 4.3,
+        "ratingCount": 60,
+        "image": "https://m.media-amazon.com/images/I/7190bRgCYgL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 20,
+        "name": "Women's Long-Sleeve Lightweight Crewneck Jumper (Available in Plus Size)",
+        "prime": false,
+        "rating": 4.3,
+        "ratingCount": 17,
+        "image": "https://m.media-amazon.com/images/I/815X47JfnnL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 63.66,
+        "name": "Men's TJM Regular Fleece C Neck Sweatshirt",
+        "prime": true,
+        "rating": 4.4,
+        "ratingCount": 427,
+        "image": "https://m.media-amazon.com/images/I/416cW8lOxlL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 14.99,
+        "name": "Mens Camber Fleece Top - Lightweight Top, Breathable Sweater, Quick Drying Pullover, Extra Ventilation - Ideal for Spring, Walking",
+        "prime": false,
+        "rating": 4.4,
+        "ratingCount": 983,
+        "image": "https://m.media-amazon.com/images/I/717cXuTypiL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 12.39,
+        "name": "Men's Gildan - Heavy Blend Sweat '18000'",
+        "prime": false,
+        "rating": 4.2,
+        "ratingCount": 34,
+        "image": "https://m.media-amazon.com/images/I/51-+rFGMjNL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": null,
+        "name": "Men's Iconic Terry Pullover Hooded Sweater Sweatshirt",
+        "prime": false,
+        "rating": 5,
+        "ratingCount": 1,
+        "image": "https://m.media-amazon.com/images/I/71tLP1t-WqL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": null,
+        "name": "Mens Daple212 Cotton-terry zip-through sweatshirt with red logo label",
+        "prime": false,
+        "rating": 4.5,
+        "ratingCount": 52,
+        "image": "https://m.media-amazon.com/images/I/81w3rHyE-yL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 42.5,
+        "name": "CARDIFF LS Core Crew Neck",
+        "prime": true,
+        "rating": 4.3,
+        "ratingCount": 41,
+        "image": "https://m.media-amazon.com/images/I/619Th8if2WL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 78.16,
+        "name": "Women's Ck Embroidery Hoodie Hooded Sweatshirt",
+        "prime": true,
+        "rating": 4.2,
+        "ratingCount": 51,
+        "image": "https://m.media-amazon.com/images/I/81WJ4GgDcwL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 87.66,
+        "name": "Men's Pullover",
+        "prime": true,
+        "rating": 4.4,
+        "ratingCount": 8,
+        "image": "https://m.media-amazon.com/images/I/81w7HUC7ozL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 14.99,
+        "name": "Camber Womens Half Zip Fleece - Breathable Pullover, Antipill, Lightweight Ladies Top, Quick Wicking, Warm Jumper -Womens Clothing for Spring Travel",
+        "prime": false,
+        "rating": 4.1,
+        "ratingCount": 107,
+        "image": "https://m.media-amazon.com/images/I/61VCLl3UaBL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 16.95,
+        "name": "Men's Fine Knit Cotton V-Neck Jumper",
+        "prime": false,
+        "rating": 4.5,
+        "ratingCount": 2,
+        "image": "https://m.media-amazon.com/images/I/81IQwU9DsRL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 22.99,
+        "name": "Mens Cotton Cable Knit Jumper Pullover Winter Sweater- 100% Cotton",
+        "prime": true,
+        "rating": 4.2,
+        "ratingCount": 368,
+        "image": "https://m.media-amazon.com/images/I/71VfqiTK54L._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 73.82,
+        "name": "Men's Heavy Cable Loose Mock Knit Pullover",
+        "prime": true,
+        "rating": 3.7,
+        "ratingCount": 3,
+        "image": "https://m.media-amazon.com/images/I/716IehWwtFL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 14.99,
+        "name": "Premium Unisex Sweatshirts Plain Gym Casual Jumper Leisure Workwear Sweater Sports Crewneck Fleece",
+        "prime": false,
+        "rating": 4.7,
+        "ratingCount": 41,
+        "image": "https://m.media-amazon.com/images/I/31kv3qbQ4TL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 25,
+        "name": "Women's Fun Funky Contrast Animal Marble Print Longline Open Front Cardigan Sweater",
+        "prime": true,
+        "rating": 3.5,
+        "ratingCount": 2,
+        "image": "https://m.media-amazon.com/images/I/618Odqwu35L._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 37.95,
+        "name": "Mens 2023 Round Neck Tour Durable Soft Golf Sweater",
+        "prime": false,
+        "rating": 4.4,
+        "ratingCount": 992,
+        "image": "https://m.media-amazon.com/images/I/51gFb2o9vHL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 19.99,
+        "name": "Mens Plain Fleece Jumpers Classic Crewneck Sweatshirt Long Sleeve Fashion Casual Warm Jumper Loose Fit Sweater",
+        "prime": false,
+        "rating": null,
+        "ratingCount": null,
+        "image": "https://m.media-amazon.com/images/I/71QzOwJDv3L._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 19.94,
+        "name": "Men's Jcoclassic Crew Neck Sweat Noos Sweatshirt",
+        "prime": false,
+        "rating": 4.4,
+        "ratingCount": 52,
+        "image": "https://m.media-amazon.com/images/I/41fEUOomA3L._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 9.9,
+        "name": "Unisex Kids Raglan Premium Sweater",
+        "prime": false,
+        "rating": 4.5,
+        "ratingCount": 2,
+        "image": "https://m.media-amazon.com/images/I/91zieC+-ZqL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 11.99,
+        "name": "Mens Turtleneck Slim Fit Mens Jumper Polyester Ribbed High Neck Pullover Sweater Knitwear S-XXL",
+        "prime": false,
+        "rating": null,
+        "ratingCount": null,
+        "image": "https://m.media-amazon.com/images/I/51FTZOKdCuL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 20,
+        "name": "Women's Vmolina Sl O-Neck Vest Noos Knitted",
+        "prime": false,
+        "rating": 3.9,
+        "ratingCount": 119,
+        "image": "https://m.media-amazon.com/images/I/81sxlhuQzmL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 24.5,
+        "name": "Boys and Toddlers' Fleece Crew-Neck Sweatshirts, Multipacks",
+        "prime": false,
+        "rating": 4.5,
+        "ratingCount": 3,
+        "image": "https://m.media-amazon.com/images/I/71UDU5Ga-zL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 13,
+        "name": "Womens Knit Crew Jumper",
+        "prime": false,
+        "rating": 4.1,
+        "ratingCount": 3,
+        "image": "https://m.media-amazon.com/images/I/71KKwc0pHCL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 24.99,
+        "name": "Women Long Sleeve Open Front Cardigan Sweater Long Soft Casual Cardigan with Pockets",
+        "prime": false,
+        "rating": 4.3,
+        "ratingCount": 245,
+        "image": "https://m.media-amazon.com/images/I/713QTusz8xL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 28.99,
+        "name": "Men’s Long Sleeve Jumper Causal Tops Fall Stand Collar Zipper Pullovers",
+        "prime": true,
+        "rating": 3.6,
+        "ratingCount": 10,
+        "image": "https://m.media-amazon.com/images/I/714pDn38pgL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 64.71,
+        "name": "Mens Tracksuit Sweatshirt Cotton-Blend Loungewear Sweatshirt with Stripe and Logo",
+        "prime": true,
+        "rating": 3.9,
+        "ratingCount": 16,
+        "image": "https://m.media-amazon.com/images/I/518ckWCGWFL._AC_UL400_.jpg",
+        "sponsored": false
+    },
+    {
+        "price": 20,
+        "name": "Women's Lightweight Vee Cardigan Jumper (Available in Plus Size)",
+        "prime": false,
+        "rating": 4.3,
+        "ratingCount": 9,
+        "image": "https://m.media-amazon.com/images/I/81BvJPiaQrL._AC_UL400_.jpg",
+        "sponsored": false
+    }
+]
