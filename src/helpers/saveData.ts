@@ -9,12 +9,10 @@ type Data = {
 };
 
 export function writeToFile(data: ProductData[]) {
-    // Convert the object to a JSON string
     const jsonString = JSON.stringify(data);
 
-    // Write the JSON string to a file
     fs.writeFile(
-        "../../data/products.json",
+        "src/data/products.json",
         jsonString,
         { flag: "w+" },
         (err: NodeJS.ErrnoException | null) => {
