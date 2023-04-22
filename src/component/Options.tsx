@@ -81,12 +81,12 @@ const Options = () => {
                         ></InputBox>
                     </OneOptionBox>
                     <OneOptionBox>
-                        <p>Country</p>
+                        <p>region</p>
                         <InputBox
-                            value={store.country}
+                            value={store.region}
                             onChange={(event) => {
                                 store.update({
-                                    country: event.target.value,
+                                    region: event.target.value,
                                 });
                             }}
                         ></InputBox>

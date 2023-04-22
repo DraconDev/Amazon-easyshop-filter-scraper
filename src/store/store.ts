@@ -10,7 +10,7 @@ type MyState = {
     votesMinimum: string;
     ratingMinimum: string;
     searchField: string;
-    country: string;
+    region: string;
     update: (value: any) => void;
     sponsoredToggle: () => void;
     setPriceMinimum: (value: string) => void;
@@ -22,12 +22,12 @@ const useMyStore = create<MyState>()(
     devtools((set) => ({
         sponsored: false,
         freeDelivery: true,
-        priceMinimum: "",
+        priceMinimum: "0",
         priceMaximum: "",
-        votesMinimum: "1000",
-        ratingMinimum: "4.2",
+        votesMinimum: "200",
+        ratingMinimum: "4.0",
         searchField: "",
-        country: "America",
+        region: "co.uk",
         update: (value: any) => set((state) => ({ ...state, ...value })),
         sponsoredToggle() {
             set((state) => ({

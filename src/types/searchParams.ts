@@ -6,6 +6,6 @@ export interface SearchParams {
     priceMaximum?: string;
     votesMinimum: string;
     ratingMinimum: string;
-    country: string;
+    region: string;
     [key: string]: any;
 }

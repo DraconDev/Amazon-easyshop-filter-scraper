@@ -5,10 +5,6 @@ import { writeToFile } from "@component/helpers/saveData";
 import search from "@component/pages/api/products/search";
 import { SearchParams } from "@component/types/searchParams";
 
-const country = "co.uk";
-const BASE_URL = `https://www.amazon.${country}/s?k=`;
-// const search = `black sweater`;
-
 async function getElem(
     search: string,
     product: ElementHandle<SVGElement | HTMLElement>
@@ -19,6 +15,8 @@ async function getElem(
 }
 
 export async function scrapeWebsite(props: SearchParams) {
+    const BASE_URL = `https://www.amazon.${props.region}/s?k=`;
+    console.log(props);
     const browser = await chromium.launch();
     const page = await browser.newPage();
     const buildQuery = props.searchField.split(" ").join("+");
@@ -42,9 +40,9 @@ export async function scrapeWebsite(props: SearchParams) {
         const ratingRaw =
             (await getElem('span:has-text("stars")', product)) ?? "1.0";
         const rating = parseFloat(ratingRaw?.slice(0, 3)).toFixed(1);
-        // if (+rating < +props.ratingMinimum) {
-        //     break;
-        // }
+        if (parseFloat(rating) < parseFloat(props.ratingMinimum)) {
+            break;
+        }
 
         const priceWhole = await getElem("span.a-price-whole", product);
         const priceFraction = await getElem("span.a-price-fraction", product);

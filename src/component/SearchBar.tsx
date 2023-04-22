@@ -20,7 +20,7 @@ export const SearchBar = (props: Props) => {
         priceMinimum,
         votesMinimum,
         searchField: search,
-        country,
+        region,
         ratingMinimum,
     } = store;
 
@@ -32,7 +32,7 @@ export const SearchBar = (props: Props) => {
             priceMinimum,
             votesMinimum,
             search,
-            country,
+            region,
             ratingMinimum,
         };
 
