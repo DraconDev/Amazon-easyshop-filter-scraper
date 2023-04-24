@@ -20,10 +20,6 @@ const Options = () => {
                 <div className="flex flex-row flex-wrap w-full h-fit">
                     <OneOptionBox>
                         <OptionTitle>Allow sponsored</OptionTitle>
-                        {/* <CustomCheckbox
-                            checked={allowSponsored}
-                            onClick={setAllowSponsored}
-                        ></CustomCheckbox> */}
                         <CustomCheckbox
                             checked={store.sponsored}
                             onClick={store.sponsoredToggle}
@@ -91,7 +87,21 @@ const Options = () => {
                             }}
                         ></InputBox>
                     </OneOptionBox>
+                    <OneOptionBox>
+                        <p>Pages</p>
+                        <InputBox
+                            value={store.pages}
+                            onChange={(event) => {
+                                store.update({
+                                    pages: event.target.value,
+                                });
+                            }}
+                        ></InputBox>
+                    </OneOptionBox>
                 </div>
+            </div>
+            <div className="px-8-1 text-lg">
+                *Be patient. Search and filtering takes a while.
             </div>
         </div>
     );

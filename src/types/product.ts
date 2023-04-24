@@ -1,10 +1,10 @@
 export interface ProductData {
-    price: number;
+    price?: string;
     name: string;
     prime?: boolean;
     voteCount: string;
     rating: number;
     image: string;
-    sponsored: boolean;
+    sponsored?: boolean;
     [key: string]: any;
 }

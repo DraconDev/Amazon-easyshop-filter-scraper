@@ -1,7 +1,7 @@
 export interface SearchParams {
     searchField: string;
-    sponsored: string;
-    freeDelivery: string;
+    sponsored?: string;
+    freeDelivery?: string;
     priceMinimum?: string;
     priceMaximum?: string;
     votesMinimum: string;

@@ -5,35 +5,27 @@ import useMyStore, { useSearchResults } from "@component/store/store";
 import store from "@component/store/store";
 import { type } from "os";
 import { useQuery } from "@tanstack/react-query";
+import { get } from "http";
 
 type Props = {};
 
 export const SearchBar = (props: Props) => {
-    // const [data, setData] = useState({});
+    const store = useMyStore();
     const searchStore = useSearchResults();
 
-    const store = useMyStore();
-    const {
-        sponsored,
-        freeDelivery,
-        priceMaximum,
-        priceMinimum,
-        votesMinimum,
-        searchField: search,
-        region,
-        ratingMinimum,
-    } = store;
+    // async function getData(search: string) {
+    //     console.log(search);
+    //     const response = await axios.get("/api/products/search/", {
+    //         params: {
+    //             search,
+    //         },
+    //     });
+    //     searchStore.update({ results: response.data });
+    // }
 
     async function fetchItems() {
         const searchParams = {
-            sponsored,
-            freeDelivery,
-            priceMaximum,
-            priceMinimum,
-            votesMinimum,
-            search,
-            region,
-            ratingMinimum,
+            ...store,
         };
 
         try {
@@ -74,4 +66,4 @@ export const SearchBar = (props: Props) => {
     );
 };
 
-// export default SearchBar;
+export default SearchBar;

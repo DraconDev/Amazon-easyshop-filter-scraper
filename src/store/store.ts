@@ -11,6 +11,7 @@ type MyState = {
     ratingMinimum: string;
     searchField: string;
     region: string;
+    pages: string;
     update: (value: any) => void;
     sponsoredToggle: () => void;
     setPriceMinimum: (value: string) => void;
@@ -28,6 +29,7 @@ const useMyStore = create<MyState>()(
         ratingMinimum: "4.0",
         searchField: "",
         region: "co.uk",
+        pages: "5",
         update: (value: any) => set((state) => ({ ...state, ...value })),
         sponsoredToggle() {
             set((state) => ({

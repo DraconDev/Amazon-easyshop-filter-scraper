@@ -1,76 +1,108 @@
-import { ElementHandle, chromium } from "playwright";
+// import { ElementHandle, chromium } from "playwright";
+// import { ProductData } from "../types/product";
+// import { writeToFile } from "@component/helpers/saveData";
+// import { SearchParams } from "@component/types/searchParams";
 
-import { ProductData } from "../types/product";
-import { writeToFile } from "@component/helpers/saveData";
-import search from "@component/pages/api/products/search";
-import { SearchParams } from "@component/types/searchParams";
+// async function getElem(
+//     search: string,
+//     product: ElementHandle<SVGElement | HTMLElement>
+// ) {
+//     const elem = await product.$(search);
+//     if (!elem) {
+//         return null;
+//     }
+//     const elemFormat = (await elem.textContent()) ?? "";
+//     return elemFormat.trim().replace(",", "");
+// }
+// //
+// export async function scrapeWebsite(props: SearchParams) {
+//     const products: ProductData[] = [];
+//     const BASE_URL = `https://www.amazon.${props.region}/s?k=`;
+//     // console.log(props);
+//     const browser = await chromium.launch();
+//     const page = await browser.newPage();
+//     const buildQuery = props.searchField.split(" ").join("+");
 
-async function getElem(
-    search: string,
-    product: ElementHandle<SVGElement | HTMLElement>
-) {
-    const elem = await product.$(search);
-    const elemFormat = elem ? await elem.textContent() : "";
-    return elemFormat;
-}
+//     for (let i = 1; i <= +props.pages; i++) {
+//         await page.goto(
+//             BASE_URL + buildQuery + "&s=review-rank" + "&fs=true" + `&page=${i}` +
+//         );
+//         const searchResults = await page.$$(
+//             "[data-component-type='s-search-result']"
+//         );
+//         for (const product of searchResults) {
+//             debugger;
+//             //! votes
+//             const voteCount = await getElem("a span.a-size-base", product);
+//             console.log(voteCount);
+//             if (voteCount == null || +voteCount < +props.votesMinimum) {
+//                 break;
+//             }
+//             // if (!voteCount) {
+//             //     break;
+//             // }
 
-export async function scrapeWebsite(props: SearchParams) {
-    const BASE_URL = `https://www.amazon.${props.region}/s?k=`;
-    console.log(props);
-    const browser = await chromium.launch();
-    const page = await browser.newPage();
-    const buildQuery = props.searchField.split(" ").join("+");
-    await page.goto(BASE_URL + buildQuery);
-    await page
-        ?.getByRole("button", { name: "Continue without accepting" })
-        .click();
-    const searchResults = await page.$$(
-        "[data-component-type='s-search-result']"
-    );
+//             //! rating
+//             const ratingRaw = await getElem('span:has-text("stars")', product);
+//             if (ratingRaw == null) {
+//                 break;
+//             }
+//             const rating = parseFloat(ratingRaw?.slice(0, 3)).toFixed(1);
 
-    const products: ProductData[] = [];
-    for (const product of searchResults) {
-        // votes
-        const voteCount = (await getElem("a span.a-size-base", product)) ?? "0";
-        if (+voteCount < +props.votesMinimum) {
-            break;
-        }
+//             // const ratingRaw = await getElem('span:has-text("stars")', product);
+//             // if (
+//             //     !ratingRaw ||
+//             //     parseFloat(ratingRaw) < parseFloat(props.ratingMinimum)
+//             // ) {
+//             //     break;
+//             // }
+//             // const rating = parseFloat(ratingRaw?.slice(0, 3)).toFixed(1);
 
-        // rating
-        const ratingRaw =
-            (await getElem('span:has-text("stars")', product)) ?? "1.0";
-        const rating = parseFloat(ratingRaw?.slice(0, 3)).toFixed(1);
-        if (parseFloat(rating) < parseFloat(props.ratingMinimum)) {
-            break;
-        }
+//             // price
+//             // const priceWhole = await getElem("span.a-price-whole", product);
+//             // const priceFraction = await getElem("span.a-price-fraction", product);
+//             // const price = `${priceWhole}${priceFraction}`;
 
-        const priceWhole = await getElem("span.a-price-whole", product);
-        const priceFraction = await getElem("span.a-price-fraction", product);
-        const price = `${priceWhole}${priceFraction}`;
-        const name = await getElem("h2.a-size-mini", product);
+//             // symbol
+//             // const priceSymbol = await getElem("span.a-price-symbol", product);
 
-        const prime = (await product.$("[aria-label*=Prime]")) ? true : false;
-        const sponsored = (await product.$("[aria-label*=Sponsored]"))
-            ? true
-            : false;
+//             // ! price
+//             const priceNew = await getElem("span.a-offscreen", product);
+//             console.log(priceNew);
+//             if (priceNew == null) {
+//                 break;
+//             }
+//             const priceSymbol = priceNew.slice(0, 1);
+//             const price = priceNew.slice(1).replace(",", "");
 
-        const image = await product.$("img");
-        const imageSrc = await image?.getAttribute("src");
+//             // console.log(priceNew);
+//             // const prime = (await product.$("[aria-label*=Prime]"))
+//             //     ? true
+//             //     : false;
+//             // const sponsored = (await product.$("[aria-label*=Sponsored]"))
+//             //     ? true
+//             //     : false;
 
-        const priceSymbol = await getElem("span.a-price-symbol", product);
+//             // ! image
+//             const image = await product.$("img");
+//             const imageSrc = await image?.getAttribute("src");
 
-        const productData = {
-            price: parseFloat(price),
-            name: name?.trim() as string,
-            prime: prime as boolean,
-            rating: +rating,
-            voteCount: voteCount,
-            image: imageSrc as string,
-            sponsored: sponsored as boolean,
-            priceSymbol: priceSymbol ?? "",
-        };
-        products.push(productData);
-    }
-    writeToFile(products);
-    return products as ProductData[];
-}
+//             // ! name
+//             const name = await getElem("h2", product);
+
+//             const productData = {
+//                 name: name as string,
+//                 rating: +rating,
+//                 voteCount: voteCount,
+//                 image: imageSrc as string,
+//                 // prime: prime as boolean,
+//                 // sponsored: sponsored as boolean,
+//                 price: price,
+//                 priceSymbol: priceSymbol ?? "",
+//             };
+//             products.push(productData);
+//         }
+//     }
+//     writeToFile(products);
+//     return products as ProductData[];
+// }
