@@ -4,8 +4,8 @@
 
 :root {
     --foreground-rgb: 0, 0, 0;
-    --background-start: ##334155;
-    --background-end: ##334155;
+    --background-start: #334155;
+    --background-end: #334155;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,4 +24,8 @@ body {
             rgb(var(--background-end))
         )
         rgb(var(--background-start));
+}
+
+.shade-image {
+    background: linear-gradient(180deg, black, 99%, #334155);
 }

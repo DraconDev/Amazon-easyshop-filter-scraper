@@ -4,7 +4,9 @@ type Props = {};
 
 const Title = (props: Props) => {
     return (
-        <p className="text-3xl font-bold text-primary text-center ">Shopping</p>
+        <p className="text-4xl text-secondary font-bold text-center mt-2 text">
+            Amazon filter
+        </p>
     );
 };
 

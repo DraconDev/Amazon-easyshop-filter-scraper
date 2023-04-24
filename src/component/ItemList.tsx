@@ -14,7 +14,10 @@ const ItemList = (props: Props) => {
     const store = useSearchResults();
     return (
         <>
-            <div className="flex flex-row  bg-primaryLight w-full pt-1 justify-end">
+            <div className="flex flex-row  bg-primaryLight w-full pt-1 justify-between px-2">
+                <p className="text-lg">
+                    *Digging through trash takes time
+                </p>
                 <SortSearchButton></SortSearchButton>
             </div>
 

@@ -1,5 +1,5 @@
 export interface ProductData {
-    price?: string;
+    price: number;
     name: string;
     prime?: boolean;
     voteCount: string;

@@ -18,7 +18,7 @@ const Options = () => {
             <SearchBar></SearchBar>
             <div className="main flex bg-primaryDark w-full p-4 rounded-md">
                 <div className="flex flex-row flex-wrap w-full h-fit">
-                    <OneOptionBox>
+                    {/* <OneOptionBox>
                         <OptionTitle>Allow sponsored</OptionTitle>
                         <CustomCheckbox
                             checked={store.sponsored}
@@ -35,9 +35,9 @@ const Options = () => {
                                 })
                             }
                         ></CustomCheckbox>
-                    </OneOptionBox>
+                    </OneOptionBox> */}
                     <OneOptionBox>
-                        <p className="">Price Min</p>
+                        <p className="">Price min</p>
                         <InputBox
                             value={store.priceMinimum}
                             onChange={(event) =>
@@ -46,7 +46,7 @@ const Options = () => {
                         ></InputBox>
                     </OneOptionBox>
                     <OneOptionBox>
-                        <p className="">Price Max</p>
+                        <p className="">Price max</p>
                         <InputBox
                             value={store.priceMaximum}
                             onChange={(event) =>
@@ -55,7 +55,7 @@ const Options = () => {
                         ></InputBox>
                     </OneOptionBox>
                     <OneOptionBox>
-                        <p>Votes</p>
+                        <p>Votes min</p>
                         <InputBox
                             value={store.votesMinimum}
                             onChange={(event) => {
@@ -66,7 +66,7 @@ const Options = () => {
                         ></InputBox>
                     </OneOptionBox>
                     <OneOptionBox>
-                        <p>Min rating</p>
+                        <p>Rating min</p>
                         <InputBox
                             value={store.ratingMinimum}
                             onChange={(event) => {
@@ -77,7 +77,7 @@ const Options = () => {
                         ></InputBox>
                     </OneOptionBox>
                     <OneOptionBox>
-                        <p>region</p>
+                        <p>Region</p>
                         <InputBox
                             value={store.region}
                             onChange={(event) => {
@@ -99,9 +99,6 @@ const Options = () => {
                         ></InputBox>
                     </OneOptionBox>
                 </div>
-            </div>
-            <div className="px-8-1 text-lg">
-                *Be patient. Search and filtering takes a while.
             </div>
         </div>
     );

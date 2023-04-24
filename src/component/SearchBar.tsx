@@ -13,16 +13,6 @@ export const SearchBar = (props: Props) => {
     const store = useMyStore();
     const searchStore = useSearchResults();
 
-    // async function getData(search: string) {
-    //     console.log(search);
-    //     const response = await axios.get("/api/products/search/", {
-    //         params: {
-    //             search,
-    //         },
-    //     });
-    //     searchStore.update({ results: response.data });
-    // }
-
     async function fetchItems() {
         const searchParams = {
             ...store,
