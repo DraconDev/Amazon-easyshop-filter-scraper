@@ -1,7 +1,7 @@
+import { scrapeWebsite } from "@component/helpers/amazonScrape";
 import { SearchParams } from "@component/types/searchParams";
 import { NextApiRequest, NextApiResponse } from "next";
 import { type } from "os";
-import { scrapeWebsite } from "../../../../tests/scrapeAmazon.spec";
 
 export default async function handler(
     req: NextApiRequest,
